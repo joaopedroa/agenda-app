@@ -22,7 +22,7 @@
 
     <ion-item>
       <ion-label floating>Quantidade</ion-label>
-        <ion-input type = 'number' [(ngModel)]='listaItem.itemNumber'></ion-input>
+        <ion-input type = 'text' [(ngModel)]='listaItem.itemNumber'></ion-input>
     </ion-item>
 <!--VAMOS ACRESCENTAR O CLICK PASSANDO COMO PARÂMETRO O OBJETO ACIMA -->
     <button ion-button block (click) = 'addItem(listaItem)'>Adicionar</button>
